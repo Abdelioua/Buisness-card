@@ -1,13 +1,64 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Signika+Negative:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "animate.css";
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+}
+body {
+  background-color: #9060dd;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  animation: rubberBand 1s forwards;
+}
+.contact .box {
+  position: relative;
+  transition: all 0.3s ease;
+  bottom: 0;
+}
+.contact .box:hover {
+  bottom: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  width: 100%;
+  height: 35vh;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/photo_2023-01-10_01-48-18.jpg");
+  background-size: cover;
+  background-position-y: 20%;
+}
+
+.curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.curve .shape-fill {
+  fill: #9060dd;
+}
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .curve svg {
+    width: calc(169% + 1.3px);
+    height: 87px;
+  }
 }
