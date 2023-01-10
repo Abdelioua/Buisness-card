@@ -5,7 +5,7 @@ import React from "react";
 const Footer = ({ SetShowSlide }) => {
   return (
     <div className="">
-      <div className="flex justify-center">
+      <div className=" flex justify-center">
         <button
           className="bg-white rounded-md px-4 py-2 drop-shadow-lg cursor-pointer btn"
           onClick={() => SetShowSlide((val) => !val)}

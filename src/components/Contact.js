@@ -5,13 +5,13 @@ import { faEnvelope, faFileText } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="contact container m-auto p-3 relative">
-      <div className="ml-2 mb-2 border-l-2">
+    <div className="contact container m-auto px-3 relative">
+      <div className="ml-2 my-5 border-l-2">
         <h2 className="text-white ml-4">Abderrahmane Abdelioua</h2>
         <p className="text-white text-sm ml-4">Web developer</p>
       </div>
-      <div className="grid grid-rows-4 gap-4 text-center items-center relative ">
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md box ">
+      <div className="grid grid-rows-4 gap-3 text-center items-center relative my-5">
+        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md w-3/4 mx-auto box ">
           <FontAwesomeIcon icon={faFileText} />
           <a
             target="_blank"
@@ -22,7 +22,7 @@ const Contact = () => {
             Portfolio Website
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md box">
+        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md w-3/4 mx-auto box">
           <FontAwesomeIcon icon={faGithub} />
           <a
             target="_blank"
@@ -33,7 +33,7 @@ const Contact = () => {
             Github
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md box">
+        <div className="drop-shadow-md bg-white py-2 px-2 rounded-md w-3/4 mx-auto box box ">
           <FontAwesomeIcon icon={faLinkedin} />
           <a
             target="_blank"
@@ -44,7 +44,7 @@ const Contact = () => {
             LinkedIn
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md box">
+        <div className="drop-shadow-md bg-white py-2 px-2 rounded-md w-3/4 mx-auto box box">
           <FontAwesomeIcon icon={faEnvelope} />
           <a
             target="_blank"
