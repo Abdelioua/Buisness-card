@@ -78,7 +78,7 @@ const Share = ({ SetShowSlide }) => {
         <motion.p
           className="text-center p-2 mt-3 bg-white rounded-md text-sm mx-auto copied"
           initial={{ y: "-100vh" }}
-          animate={{ y: "-78vh", duration: "0.1", type: "spring" }}
+          animate={{ y: "-72vh", duration: "0.1", type: "spring" }}
           exit={{ y: "-100vh" }}
         >
           Link Copied to Clipboard
