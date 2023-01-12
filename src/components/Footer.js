@@ -11,7 +11,7 @@ const Footer = ({ SetShowSlide }) => {
           onClick={() => SetShowSlide((val) => !val)}
         >
           <FontAwesomeIcon className="mx-2" icon={faShareAlt} color="#9060dd" />
-          Share this card
+          More options...
         </button>
       </div>
     </div>

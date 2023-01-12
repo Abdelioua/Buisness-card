@@ -38,6 +38,7 @@ const Share = ({ SetShowSlide }) => {
     >
       <header className="flex justify-between px-4 py-4">
         <FontAwesomeIcon
+          className=" cursor-pointer"
           icon={faXmark}
           color="#fff"
           size="xl"
@@ -45,6 +46,7 @@ const Share = ({ SetShowSlide }) => {
         />
         <CopyToClipboard text="https://deluxe-blancmange-78bd64.netlify.app/">
           <FontAwesomeIcon
+            className="cursor-pointer"
             icon={faArrowUpFromBracket}
             color="#fff"
             size="xl"
@@ -53,6 +55,9 @@ const Share = ({ SetShowSlide }) => {
         </CopyToClipboard>
       </header>
       <section className="flex flex-col items-center qr-code">
+        <p className="text-white mt-4">
+          Share this link card with your friends!
+        </p>
         <div className="qr-box p-5">
           <img src={qr} alt="qrcode" className=" rounded-xl" />
           <p className="text-white mt-5 text-sm">
@@ -78,7 +83,7 @@ const Share = ({ SetShowSlide }) => {
         <motion.p
           className="text-center p-2 mt-3 bg-white rounded-md text-sm mx-auto copied"
           initial={{ y: "-100vh" }}
-          animate={{ y: "-72vh", duration: "0.1", type: "spring" }}
+          animate={{ y: "-79vh", duration: "0.1", type: "spring" }}
           exit={{ y: "-100vh" }}
         >
           Link Copied to Clipboard

@@ -11,47 +11,47 @@ const Contact = () => {
         <p className="text-white text-sm ml-4">Web developer</p>
       </div>
       <div className="grid grid-rows-4 gap-3 text-center items-center relative my-5">
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md w-3/4 mx-auto box ">
-          <FontAwesomeIcon icon={faFileText} />
+        <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">
           <a
             target="_blank"
             href="https://neon-haupia-8d5e96.netlify.app"
-            className="inline mx-2"
+            className=" inline-block w-full"
             rel="noreferrer"
           >
+            <FontAwesomeIcon className="mr-2" icon={faFileText} />
             Portfolio Website
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-3 px-2 rounded-md w-3/4 mx-auto box">
-          <FontAwesomeIcon icon={faGithub} />
+        <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">
           <a
             target="_blank"
             href="https://github.com/Abdelioua"
-            className="inline mx-2"
+            className="inline-block w-full"
             rel="noreferrer"
           >
+            <FontAwesomeIcon className="mr-2" icon={faGithub} />
             Github
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-2 px-2 rounded-md w-3/4 mx-auto box box ">
-          <FontAwesomeIcon icon={faLinkedin} />
+        <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/abderrahmane-abdelioua/"
-            className="inline mx-2"
+            className="inline-block w-full"
             rel="noreferrer"
           >
+            <FontAwesomeIcon className="mr-2" icon={faLinkedin} />
             LinkedIn
           </a>
         </div>
-        <div className="drop-shadow-md bg-white py-2 px-2 rounded-md w-3/4 mx-auto box box">
-          <FontAwesomeIcon icon={faEnvelope} />
+        <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">
           <a
             target="_blank"
-            className="inline mx-2"
+            className="inline-block w-full"
             href="mailto:abderrahmane.abdelioua@gmail.com"
             rel="noreferrer"
           >
+            <FontAwesomeIcon className="mr-2" icon={faEnvelope} />
             Gmail
           </a>
         </div>

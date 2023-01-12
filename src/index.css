@@ -95,3 +95,17 @@
 h2 {
   font-weight: 800;
 }
+
+@media screen and (max-width: 450px) {
+  .App {
+    max-width: 100vh;
+    max-height: 100vh;
+  }
+}
+@media screen and (min-width: 500px) {
+  .App {
+    margin: 0 auto;
+    max-width: 375px;
+    max-height: 100vh;
+  }
+}

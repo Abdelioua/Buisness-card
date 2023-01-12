@@ -9,7 +9,7 @@ function App() {
   const [showSlide, SetShowSlide] = useState(true);
 
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       {showSlide ? (
         <>
           <Header />
