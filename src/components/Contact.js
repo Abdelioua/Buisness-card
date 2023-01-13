@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contact container m-auto px-3 relative">
       <div className="ml-2 my-5 border-l-2">
         <h2 className="text-white ml-4">Abderrahmane Abdelioua</h2>
-        <p className="text-white text-sm ml-4">Web developer</p>
+        <p className="text-white text-sm ml-4">Frontend web developer</p>
       </div>
       <div className="grid grid-rows-4 gap-3 text-center items-center relative my-5">
         <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">

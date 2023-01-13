@@ -3,7 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header relative">
-      <div className="img"></div>
+      <div className="img">
+        <div className="picture"></div>
+      </div>
       <div className="curve">
         <svg
           data-name="Layer 1"
