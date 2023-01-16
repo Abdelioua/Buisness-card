@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="drop-shadow-md bg-white rounded-md w-3/4 h-12 flex items-center mx-auto box">
           <a
             target="_blank"
-            href="https://neon-haupia-8d5e96.netlify.app"
+            href="https://abderrahmane-abdelioua.netlify.app"
             className=" inline-block w-full"
             rel="noreferrer"
           >

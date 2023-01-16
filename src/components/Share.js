@@ -4,7 +4,7 @@ import {
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import qr from "../assets/qr.svg";
+import qr from "../assets/qr.png";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
